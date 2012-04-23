@@ -1,0 +1,8 @@
+<project default="copy-resources">
+  <target name="init"/>
+  <target name="copy-resources" depends="init">
+    <copy todir="target/classes/alfresco/web-extension" filtering="true">
+      <fileset dir="src/main/properties/local" includes="application.properties" excludes="**/*.java"/>
+    </copy>
+  </target>
+</project>
