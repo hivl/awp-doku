@@ -18,7 +18,7 @@
 		<gae.home>/home/swild/Downloads/appengine-java-sdk-1.6.4.1/</gae.home>
 		<gaeApplicationName>alexsotoblog</gaeApplicationName>
 		<gaePluginVersion>0.9.0</gaePluginVersion>
-		<gae.version>1.5.5</gae.version>
+		<gae.version>1.6.4</gae.version>
 
 		<!-- Upload to http://test.latest.<applicationName>.appspot.com by default -->
 		<gae.application.version>test</gae.application.version>
