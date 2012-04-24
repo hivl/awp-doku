@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.dis-solution</groupId>
+	<groupId>com.dissolution</groupId>
 	<artifactId>my-custom-share</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<name>Alfresco Share client</name>
@@ -23,7 +23,12 @@
             <snapshots>
                 <enabled>true</enabled>
            </snapshots>
+           
+           
         </repository>
+        
+
+        
         
 	</repositories>
 
@@ -52,14 +57,14 @@
         <!-- Share module dependencies 
             | As of Alfresco 3.3 you can add here below Share Dashlets/Pages packaged as Jars (see http://blogs.alfresco.com/wp/kevinr/2010/01/28/alfresco-share-33-extensions-and-springsurf/)
             | You can build them with Maven using the Maven Share Module Archetype, documentation can be found here: http://wiki.alfresco.com/wiki/Managing_Alfresco_Lifecyle_with_Maven)
-             
+         -->     
         <dependency>
-            <groupId>org.alfresco</groupId>
-            <artifactId>my-share-module</artifactId>
+            <groupId>com.dissolution</groupId>
+            <artifactId>my-custom-share-module</artifactId>
             <type>jar</type>
-            <version>0.0.1</version>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
-        -->
+       
 	</dependencies>
 
 	<build>
