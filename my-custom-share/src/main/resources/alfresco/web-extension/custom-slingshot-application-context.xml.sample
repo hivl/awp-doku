@@ -21,7 +21,7 @@
    
    <!-- Override WebScripts searchpath - to include remote store -->
    <!-- This enables remote component load via a central Alfresco server -->
-   <!--
+   
    <bean id="webframework.webscripts.store.alfresco.remote" parent="webframework.store.remote.abstract">
       <property name="path"><value>alfresco/site-webscripts</value></property>
    </bean>
@@ -37,11 +37,11 @@
          </list>
       </property>
    </bean>
-   -->
+   
    
    <!-- Override Templates and Scripts searchpath - to include remote store -->
    <!-- This enables remote component load via a central Alfresco server -->
-   <!--
+   
    <bean id="webframework.templates.store.alfresco.remote" parent="webframework.store.remote.abstract">
       <property name="path"><value>alfresco/templates</value></property>
    </bean>
@@ -58,6 +58,6 @@
          </list>
       </property>
    </bean>
-   -->
+   
 
 </beans>

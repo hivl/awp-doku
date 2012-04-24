@@ -16,7 +16,7 @@
 			pointed to by ${gae.home} property (Typically, one used by your Eclipse plug-in) -->
 
 		<gae.home>/home/swild/Downloads/appengine-java-sdk-1.6.4.1/</gae.home>
-		<gaeApplicationName>alexsotoblog</gaeApplicationName>
+		<gaeApplicationName>hskaswerest</gaeApplicationName>
 		<gaePluginVersion>0.9.0</gaePluginVersion>
 		<gae.version>1.6.4</gae.version>
 
