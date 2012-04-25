@@ -1,0 +1,441 @@
+21:42:58,829 INFO  [org.alfresco.config.JndiPropertiesFactoryBean] Loading properties file from class path resource [alfresco/repository.properties]
+21:42:58,837 INFO  [org.alfresco.config.JndiPropertiesFactoryBean] Loading properties file from class path resource [alfresco/domain/transaction.properties]
+21:42:58,838 INFO  [org.alfresco.config.JndiPropertiesFactoryBean] Loading properties file from URL [file:/home/swild/workspace-awp/myalfresco/target/alfresco/WEB-INF/classes/alfresco-global.properties]
+21:42:58,991 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:42:59,047 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:42:59,097 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:43:09,947 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:43:09,956 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:43:09,957 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:43:40,257 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Schema managed by database dialect org.hibernate.dialect.H2Dialect.
+21:43:40,501 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /tmp/Alfresco/AlfrescoSchema-H2Dialect-Update-2803971867308817433.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-RepoTables.sql).
+21:43:40,900 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /tmp/Alfresco/AlfrescoSchema-H2Dialect-Update-8462894655739635422.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-LockTables.sql).
+21:43:40,950 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /tmp/Alfresco/AlfrescoSchema-H2Dialect-Update-7386666646762660345.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-ContentTables.sql).
+21:43:41,034 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /tmp/Alfresco/AlfrescoSchema-H2Dialect-Update-8884770585403250955.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-PropertyValueTables.sql).
+21:43:41,125 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /tmp/Alfresco/AlfrescoSchema-H2Dialect-Update-6036007732487879382.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-AuditTables.sql).
+21:43:41,169 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /tmp/Alfresco/AlfrescoSchema-H2Dialect-Update-4963965175513123907.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-AvmTables.sql).
+21:43:41,250 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /tmp/Alfresco/AlfrescoSchema-H2Dialect-Update-2232336332228387323.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-ActivityTables.sql).
+21:43:41,263 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /tmp/Alfresco/AlfrescoSchema-H2Dialect-Update-7629382076685303794.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-UsageTables.sql).
+21:43:41,272 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /tmp/Alfresco/AlfrescoSchema-H2Dialect-Update-3579956185756265287.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoCreate-SubscriptionTables.sql).
+21:43:41,342 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /tmp/Alfresco/AlfrescoSchema-H2Dialect-Update-7733258839550232416.sql (Generated).
+21:43:41,658 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /tmp/Alfresco/AlfrescoSchema-H2Dialect-Update-3886816067921742961.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoPostCreate-JBPM-Extra.sql).
+21:43:41,663 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Executing database script /tmp/Alfresco/AlfrescoSchema-H2Dialect-Update-5182340779677316261.sql (Copied from classpath:alfresco/dbscripts/create/org.hibernate.dialect.H2Dialect/AlfrescoPostCreate-JBPM-FK-indexes.sql).
+21:43:42,362 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] All executed statements:  /tmp/Alfresco/AlfrescoSchema-H2Dialect-All_Statements-5943752985390139755.sql.
+21:43:44,094 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Normalized schema dumped to file /tmp/Alfresco/AlfrescoSchema-H2Dialect-9149637312426626198.xml.
+21:43:46,419 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:43:46,427 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:43:46,428 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:43:48,254 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:43:48,258 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:43:48,260 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:43:48,463 ERROR [org.alfresco.repo.content.transform.magick.AbstractImageMagickContentTransformerWorker] ImageMagickContentTransformerWorker not available: 03240000 Failed to perform ImageMagick transformation: 
+Execution result: 
+   os:         Linux
+   command:    [./ImageMagick/bin/convert, /tmp/Alfresco/ImageMagickContentTransformerWorker_init_source_3540512638807902585.gif[0], /tmp/Alfresco/ImageMagickContentTransformerWorker_init_target_6446757567166854855.png]
+   succeeded:  false
+   exit code:  1
+   out:        
+   err:        Cannot run program "./ImageMagick/bin/convert": java.io.IOException: error=2, No such file or directory
+21:43:48,601 ERROR [org.alfresco.repo.content.transform.RuntimeExecutableContentTransformerWorker] Failed to start a runtime executable content transformer: 
+Execution result: 
+   os:         Linux
+   command:    [./bin/pdf2swf, -V]
+   succeeded:  false
+   exit code:  1
+   out:        
+   err:        Cannot run program "./bin/pdf2swf": java.io.IOException: error=2, No such file or directory
+21:43:48,674 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:43:48,675 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:43:48,676 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:44:30,163 WARN  [org.alfresco.repo.admin.ConfigurationChecker] The Alfresco 'dir.root' property is set to a relative path './alf_data_jetty'.  'dir.root' should be overridden to point to a specific folder.
+21:44:30,177 INFO  [org.alfresco.repo.admin.ConfigurationChecker] The Alfresco root data directory ('dir.root') is: ./alf_data_jetty
+21:44:30,699 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] Checking for patches to apply ...
+21:44:33,115 WARN  [org.alfresco.repo.admin.patch.PatchExecuter] Patch description is not available: Patch[ id=patch.migrateAttrDelete, description=patch.migrateAttrDelete.description, fixesFromSchema=0, fixesToSchema=4106, targetSchema=4107]
+21:44:33,413 WARN  [org.alfresco.repo.admin.patch.PatchExecuter] Patch description is not available: Patch[ id=patch.activitiesEmailTemplate, description=patch.activitiesEmailTemplate.description, fixesFromSchema=0, fixesToSchema=5005, targetSchema=5006]
+21:44:33,512 WARN  [org.alfresco.repo.admin.patch.PatchExecuter] Patch description is not available: Patch[ id=patch.publishing.root, description=patch.publishing.root.description, fixesFromSchema=0, fixesToSchema=5013, targetSchema=5014]
+21:44:33,565 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 	Applying patch 'patch.siteLoadPatch.swsdp' (Loads a sample site into the repository.).
+21:44:33,697 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:44:33,699 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:44:33,700 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:44:43,759 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 	Applying patch 'patch.exampleJavaScript' (Loads sample Javascript file into datadictionary scripts folder).
+21:44:44,101 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 
+=== Applied patch                 === 
+ID: patch.db-V3.4-UsageTables
+RESULT: 
+Script completed
+=====================================
+21:44:44,102 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 
+=== Applied patch                 === 
+ID: patch.db-V3.0-ActivityTables
+RESULT: 
+Script completed
+=====================================
+21:44:44,102 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 
+=== Applied patch                 === 
+ID: patch.db-V3.2-LockTables
+RESULT: 
+Script completed
+=====================================
+21:44:44,102 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 
+=== Applied patch                 === 
+ID: patch.db-V3.2-ContentTables
+RESULT: 
+Script completed
+=====================================
+21:44:44,102 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 
+=== Applied patch                 === 
+ID: patch.db-V3.2-PropertyValueTables
+RESULT: 
+Script completed
+=====================================
+21:44:44,102 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 
+=== Applied patch                 === 
+ID: patch.db-V3.2-AuditTables
+RESULT: 
+Script completed
+=====================================
+21:44:44,102 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 
+=== Applied patch                 === 
+ID: patch.db-V3.2-AvmTables
+RESULT: 
+Script completed
+=====================================
+21:44:44,103 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 
+=== Applied patch                 === 
+ID: patch.db-V3.3-JBPM-Extra
+RESULT: 
+Script completed
+=====================================
+21:44:44,103 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 
+=== Applied patch                 === 
+ID: patch.db-V3.4-JBPM-FK-indexes
+RESULT: 
+Script completed
+=====================================
+21:44:44,103 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 
+=== Applied patch                 === 
+ID: patch.db-V4.0-SubscriptionTables
+RESULT: 
+Script completed
+=====================================
+21:44:44,104 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 
+=== Applied patch                 === 
+ID: patch.siteLoadPatch.swsdp
+RESULT: 
+Site swsdp imported.
+=====================================
+21:44:44,104 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] 
+=== Applied patch                 === 
+ID: patch.exampleJavaScript
+RESULT: 
+Imported view into bootstrap location: /app:company_home/app:dictionary/app:scripts (workspace://SpacesStore/e0f5d686-e248-4a79-82fb-0c8a4d130517)
+=====================================
+21:44:44,202 INFO  [org.alfresco.repo.module.ModuleServiceImpl] Found 0 module(s).
+21:44:44,320 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:44:44,321 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:44:44,322 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:44:50,928 ERROR [org.alfresco.fileserver] Failed to get local domain/workgroup name, using default of WORKGROUP
+21:44:50,928 ERROR [org.alfresco.fileserver] (This may be due to firewall settings or incorrect <broadcast> setting)
+21:44:50,991 ERROR [org.alfresco.fileserver] [SMB] Server error : org.alfresco.jlan.server.config.InvalidConfigurationException: Error initializing TCP-IP SMB session handler, Permission denied
+21:44:51,001 ERROR [org.alfresco.fileserver] org.alfresco.jlan.server.config.InvalidConfigurationException: Error initializing TCP-IP SMB session handler, Permission denied
+21:44:51,002 ERROR [org.alfresco.fileserver] 	at org.alfresco.jlan.smb.server.nio.NIOCifsConnectionsHandler.initializeHandler(NIOCifsConnectionsHandler.java:259)
+21:44:51,002 ERROR [org.alfresco.fileserver] 	at org.alfresco.jlan.smb.server.SMBServer.run(SMBServer.java:472)
+21:44:51,002 ERROR [org.alfresco.fileserver] 	at java.lang.Thread.run(Thread.java:679)
+21:44:51,027 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:44:51,028 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:44:51,028 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:44:51,174 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:44:51,175 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:44:51,175 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:44:51,242 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:44:51,242 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:44:51,243 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:44:51,371 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:44:51,372 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:44:51,372 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:44:51,430 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:44:51,435 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:44:51,435 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:44:51,905 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:44:51,906 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:44:51,906 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:44:52,234 INFO  [org.alfresco.service.descriptor.DescriptorService] Alfresco JVM - v1.6.0_24-b24; maximum heap size 455,125MB
+21:44:52,236 WARN  [org.alfresco.service.descriptor.DescriptorService] Alfresco JVM - WARNING - maximum heap size 455,125MB is less than recommended 512MB
+21:44:52,251 INFO  [org.alfresco.service.descriptor.DescriptorService] Alfresco started (Community). Current version: 4.0.0 (b @build-number@) schema 5.019. Originally installed version: 4.0.0 (b @build-number@) schema 5.019.
+21:44:52,331 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:44:52,332 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:44:52,332 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:44:52,553 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:44:52,554 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:44:52,554 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:45:08,754 WARN  [org.springframework.extensions.webscripts.DeclarativeRegistry] Unable to register script classpath:webscripts/org/springframework/extensions/cmis/content.get.desc.xml due to error: 03240000 Web Script document org/springframework/extensions/cmis/content.get.desc.xml is attempting to define the url '/cmis/content:GET' already defined by org/alfresco/cmis/client/content.get.desc.xml
+21:47:43,310 INFO  [org.alfresco.config.JndiPropertiesFactoryBean] Loading properties file from class path resource [alfresco/repository.properties]
+21:47:43,311 INFO  [org.alfresco.config.JndiPropertiesFactoryBean] Loading properties file from class path resource [alfresco/domain/transaction.properties]
+21:47:43,312 INFO  [org.alfresco.config.JndiPropertiesFactoryBean] Loading properties file from URL [file:/home/swild/workspace-awp/myalfresco/target/alfresco/WEB-INF/classes/alfresco-global.properties]
+21:47:43,525 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:47:43,842 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:47:43,981 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:48:02,414 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:48:02,415 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:48:02,416 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:48:41,458 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Schema managed by database dialect org.hibernate.dialect.H2Dialect.
+21:48:44,638 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] No changes were made to the schema.
+21:48:49,618 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:48:49,620 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:48:49,621 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:48:55,047 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:48:55,049 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:48:55,050 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:48:55,404 ERROR [org.alfresco.repo.content.transform.magick.AbstractImageMagickContentTransformerWorker] ImageMagickContentTransformerWorker not available: 03240000 Failed to perform ImageMagick transformation: 
+Execution result: 
+   os:         Linux
+   command:    [./ImageMagick/bin/convert, /tmp/Alfresco/ImageMagickContentTransformerWorker_init_source_5710294430836169892.gif[0], /tmp/Alfresco/ImageMagickContentTransformerWorker_init_target_5363162512686502757.png]
+   succeeded:  false
+   exit code:  1
+   out:        
+   err:        Cannot run program "./ImageMagick/bin/convert": java.io.IOException: error=2, No such file or directory
+21:48:55,590 ERROR [org.alfresco.repo.content.transform.RuntimeExecutableContentTransformerWorker] Failed to start a runtime executable content transformer: 
+Execution result: 
+   os:         Linux
+   command:    [./bin/pdf2swf, -V]
+   succeeded:  false
+   exit code:  1
+   out:        
+   err:        Cannot run program "./bin/pdf2swf": java.io.IOException: error=2, No such file or directory
+21:48:55,757 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:48:55,764 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:48:55,765 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:49:00,928 WARN  [org.alfresco.repo.admin.ConfigurationChecker] The Alfresco 'dir.root' property is set to a relative path './alf_data_jetty'.  'dir.root' should be overridden to point to a specific folder.
+21:49:00,929 INFO  [org.alfresco.repo.admin.ConfigurationChecker] The Alfresco root data directory ('dir.root') is: ./alf_data_jetty
+21:49:01,743 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] Checking for patches to apply ...
+21:49:05,133 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] No patches were required.
+21:49:05,219 INFO  [org.alfresco.repo.module.ModuleServiceImpl] Found 0 module(s).
+21:49:05,482 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:49:05,487 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:49:05,489 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:49:07,416 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:49:07,417 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:49:07,417 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:49:12,608 ERROR [org.alfresco.fileserver] Failed to get local domain/workgroup name, using default of WORKGROUP
+21:49:12,608 ERROR [org.alfresco.fileserver] (This may be due to firewall settings or incorrect <broadcast> setting)
+21:49:12,776 ERROR [org.alfresco.fileserver] [SMB] Server error : org.alfresco.jlan.server.config.InvalidConfigurationException: Error initializing TCP-IP SMB session handler, Permission denied
+21:49:12,797 ERROR [org.alfresco.fileserver] org.alfresco.jlan.server.config.InvalidConfigurationException: Error initializing TCP-IP SMB session handler, Permission denied
+21:49:12,797 ERROR [org.alfresco.fileserver] 	at org.alfresco.jlan.smb.server.nio.NIOCifsConnectionsHandler.initializeHandler(NIOCifsConnectionsHandler.java:259)
+21:49:12,798 ERROR [org.alfresco.fileserver] 	at org.alfresco.jlan.smb.server.SMBServer.run(SMBServer.java:472)
+21:49:12,798 ERROR [org.alfresco.fileserver] 	at java.lang.Thread.run(Thread.java:679)
+21:49:12,853 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:49:12,858 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:49:12,859 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:49:13,220 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:49:13,223 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:49:13,225 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:49:13,360 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:49:13,361 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:49:13,368 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:49:13,680 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:49:13,681 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:49:13,681 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:49:13,787 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:49:13,787 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:49:13,787 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:49:14,014 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:49:14,017 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:49:14,017 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:49:14,828 INFO  [org.alfresco.service.descriptor.DescriptorService] Alfresco JVM - v1.6.0_24-b24; maximum heap size 455,125MB
+21:49:14,832 WARN  [org.alfresco.service.descriptor.DescriptorService] Alfresco JVM - WARNING - maximum heap size 455,125MB is less than recommended 512MB
+21:49:14,837 INFO  [org.alfresco.service.descriptor.DescriptorService] Alfresco started (Community). Current version: 4.0.0 (b @build-number@) schema 5.019. Originally installed version: 4.0.0 (b @build-number@) schema 5.019.
+21:49:14,970 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:49:14,971 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:49:14,972 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:49:15,162 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:49:15,174 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:49:15,177 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:49:38,543 WARN  [org.springframework.extensions.webscripts.DeclarativeRegistry] Unable to register script classpath:webscripts/org/springframework/extensions/cmis/content.get.desc.xml due to error: 03240000 Web Script document org/springframework/extensions/cmis/content.get.desc.xml is attempting to define the url '/cmis/content:GET' already defined by org/alfresco/cmis/client/content.get.desc.xml
+21:54:59,388 INFO  [org.alfresco.config.JndiPropertiesFactoryBean] Loading properties file from class path resource [alfresco/repository.properties]
+21:54:59,390 INFO  [org.alfresco.config.JndiPropertiesFactoryBean] Loading properties file from class path resource [alfresco/domain/transaction.properties]
+21:54:59,390 INFO  [org.alfresco.config.JndiPropertiesFactoryBean] Loading properties file from URL [file:/home/swild/workspace-awp/myalfresco/target/alfresco/WEB-INF/classes/alfresco-global.properties]
+21:54:59,480 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:54:59,709 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:54:59,777 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:55:09,301 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:55:09,301 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:55:09,302 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:55:36,071 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] Schema managed by database dialect org.hibernate.dialect.H2Dialect.
+21:55:37,917 INFO  [org.alfresco.repo.domain.schema.SchemaBootstrap] No changes were made to the schema.
+21:55:40,733 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:55:40,741 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:55:40,747 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:55:43,658 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:55:43,663 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:55:43,665 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:55:43,897 ERROR [org.alfresco.repo.content.transform.magick.AbstractImageMagickContentTransformerWorker] ImageMagickContentTransformerWorker not available: 03240000 Failed to perform ImageMagick transformation: 
+Execution result: 
+   os:         Linux
+   command:    [./ImageMagick/bin/convert, /tmp/Alfresco/ImageMagickContentTransformerWorker_init_source_760653859678703854.gif[0], /tmp/Alfresco/ImageMagickContentTransformerWorker_init_target_5513583218263238937.png]
+   succeeded:  false
+   exit code:  1
+   out:        
+   err:        Cannot run program "./ImageMagick/bin/convert": java.io.IOException: error=2, No such file or directory
+21:55:43,999 ERROR [org.alfresco.repo.content.transform.RuntimeExecutableContentTransformerWorker] Failed to start a runtime executable content transformer: 
+Execution result: 
+   os:         Linux
+   command:    [./bin/pdf2swf, -V]
+   succeeded:  false
+   exit code:  1
+   out:        
+   err:        Cannot run program "./bin/pdf2swf": java.io.IOException: error=2, No such file or directory
+21:55:44,030 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:55:44,031 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:55:44,032 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:55:44,719 WARN  [org.alfresco.util.OpenOfficeConnectionTester] Error trying to query Open Office version information. OpenOffice.org's ConfigurationRegistry not implemented in this version of OOo. This should not affect the operation of OOo.
+21:55:46,786 WARN  [org.alfresco.repo.admin.ConfigurationChecker] The Alfresco 'dir.root' property is set to a relative path './alf_data_jetty'.  'dir.root' should be overridden to point to a specific folder.
+21:55:46,787 INFO  [org.alfresco.repo.admin.ConfigurationChecker] The Alfresco root data directory ('dir.root') is: ./alf_data_jetty
+21:55:47,227 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] Checking for patches to apply ...
+21:55:48,906 INFO  [org.alfresco.repo.admin.patch.PatchExecuter] No patches were required.
+21:55:48,989 INFO  [org.alfresco.repo.module.ModuleServiceImpl] Found 0 module(s).
+21:55:49,110 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:55:49,112 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:55:49,113 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:55:50,047 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:55:50,047 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:55:50,048 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:55:55,155 ERROR [org.alfresco.fileserver] Failed to get local domain/workgroup name, using default of WORKGROUP
+21:55:55,155 ERROR [org.alfresco.fileserver] (This may be due to firewall settings or incorrect <broadcast> setting)
+21:55:55,200 ERROR [org.alfresco.fileserver] [SMB] Server error : org.alfresco.jlan.server.config.InvalidConfigurationException: Error initializing TCP-IP SMB session handler, Permission denied
+21:55:55,210 ERROR [org.alfresco.fileserver] org.alfresco.jlan.server.config.InvalidConfigurationException: Error initializing TCP-IP SMB session handler, Permission denied
+21:55:55,210 ERROR [org.alfresco.fileserver] 	at org.alfresco.jlan.smb.server.nio.NIOCifsConnectionsHandler.initializeHandler(NIOCifsConnectionsHandler.java:259)
+21:55:55,210 ERROR [org.alfresco.fileserver] 	at org.alfresco.jlan.smb.server.SMBServer.run(SMBServer.java:472)
+21:55:55,210 ERROR [org.alfresco.fileserver] 	at java.lang.Thread.run(Thread.java:679)
+21:55:55,224 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:55:55,225 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:55:55,225 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:55:55,373 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:55:55,374 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:55:55,374 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:55:55,440 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:55:55,440 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:55:55,448 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:55:55,547 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:55:55,547 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:55:55,547 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:55:55,597 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:55:55,598 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:55:55,598 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:55:55,776 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:55:55,777 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:55:55,778 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:55:56,520 INFO  [org.alfresco.service.descriptor.DescriptorService] Alfresco JVM - v1.6.0_24-b24; maximum heap size 455,125MB
+21:55:56,521 WARN  [org.alfresco.service.descriptor.DescriptorService] Alfresco JVM - WARNING - maximum heap size 455,125MB is less than recommended 512MB
+21:55:56,525 INFO  [org.alfresco.service.descriptor.DescriptorService] Alfresco started (Community). Current version: 4.0.0 (b @build-number@) schema 5.019. Originally installed version: 4.0.0 (b @build-number@) schema 5.019.
+21:55:56,635 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:55:56,636 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:55:56,636 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:55:56,718 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/version.properties]
+21:55:56,718 INFO  [org.alfresco.config.JndiPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/alfresco-shared.properties]
+21:55:56,719 INFO  [org.alfresco.config.FixedPropertyPlaceholderConfigurer] Loading properties file from class path resource [alfresco/domain/cache-strategies.properties]
+21:56:10,395 WARN  [org.springframework.extensions.webscripts.DeclarativeRegistry] Unable to register script classpath:webscripts/org/springframework/extensions/cmis/content.get.desc.xml due to error: 03240000 Web Script document org/springframework/extensions/cmis/content.get.desc.xml is attempting to define the url '/cmis/content:GET' already defined by org/alfresco/cmis/client/content.get.desc.xml
+21:58:25,598 ERROR [org.springframework.extensions.webscripts.AbstractRuntime] Exception from executeScript - redirecting to status template error: 03240002 Login failed
+org.springframework.extensions.webscripts.WebScriptException: 03240002 Login failed
+	at org.alfresco.repo.web.scripts.bean.AbstractLoginBean.login(AbstractLoginBean.java:75)
+	at org.alfresco.repo.web.scripts.bean.LoginPost.executeImpl(LoginPost.java:73)
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.executeImpl(DeclarativeWebScript.java:235)
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.execute(DeclarativeWebScript.java:64)
+	at org.alfresco.repo.web.scripts.RepositoryContainer$2.execute(RepositoryContainer.java:393)
+	at org.alfresco.repo.transaction.RetryingTransactionHelper.doInTransaction(RetryingTransactionHelper.java:388)
+	at org.alfresco.repo.web.scripts.RepositoryContainer.transactionedExecute(RepositoryContainer.java:462)
+	at org.alfresco.repo.web.scripts.RepositoryContainer.transactionedExecuteAs(RepositoryContainer.java:500)
+	at org.alfresco.repo.web.scripts.RepositoryContainer.executeScript(RepositoryContainer.java:275)
+	at org.springframework.extensions.webscripts.AbstractRuntime.executeScript(AbstractRuntime.java:372)
+	at org.springframework.extensions.webscripts.AbstractRuntime.executeScript(AbstractRuntime.java:209)
+	at org.springframework.extensions.webscripts.servlet.WebScriptServlet.service(WebScriptServlet.java:118)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1166)
+	at org.alfresco.web.app.servlet.GlobalLocalizationFilter.doFilter(GlobalLocalizationFilter.java:58)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1157)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:388)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:536)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:930)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:834)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:405)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+21:58:37,936 ERROR [org.springframework.extensions.webscripts.AbstractRuntime] Exception from executeScript - redirecting to status template error: 03240003 Login failed
+org.springframework.extensions.webscripts.WebScriptException: 03240003 Login failed
+	at org.alfresco.repo.web.scripts.bean.AbstractLoginBean.login(AbstractLoginBean.java:75)
+	at org.alfresco.repo.web.scripts.bean.LoginPost.executeImpl(LoginPost.java:73)
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.executeImpl(DeclarativeWebScript.java:235)
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.execute(DeclarativeWebScript.java:64)
+	at org.alfresco.repo.web.scripts.RepositoryContainer$2.execute(RepositoryContainer.java:393)
+	at org.alfresco.repo.transaction.RetryingTransactionHelper.doInTransaction(RetryingTransactionHelper.java:388)
+	at org.alfresco.repo.web.scripts.RepositoryContainer.transactionedExecute(RepositoryContainer.java:462)
+	at org.alfresco.repo.web.scripts.RepositoryContainer.transactionedExecuteAs(RepositoryContainer.java:500)
+	at org.alfresco.repo.web.scripts.RepositoryContainer.executeScript(RepositoryContainer.java:275)
+	at org.springframework.extensions.webscripts.AbstractRuntime.executeScript(AbstractRuntime.java:372)
+	at org.springframework.extensions.webscripts.AbstractRuntime.executeScript(AbstractRuntime.java:209)
+	at org.springframework.extensions.webscripts.servlet.WebScriptServlet.service(WebScriptServlet.java:118)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1166)
+	at org.alfresco.web.app.servlet.GlobalLocalizationFilter.doFilter(GlobalLocalizationFilter.java:58)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1157)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:388)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:536)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:930)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:834)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:405)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+22:11:25,826 ERROR [org.springframework.extensions.webscripts.AbstractRuntime] Exception from executeScript - redirecting to status template error: 03240004 Login failed
+org.springframework.extensions.webscripts.WebScriptException: 03240004 Login failed
+	at org.alfresco.repo.web.scripts.bean.AbstractLoginBean.login(AbstractLoginBean.java:75)
+	at org.alfresco.repo.web.scripts.bean.LoginPost.executeImpl(LoginPost.java:73)
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.executeImpl(DeclarativeWebScript.java:235)
+	at org.springframework.extensions.webscripts.DeclarativeWebScript.execute(DeclarativeWebScript.java:64)
+	at org.alfresco.repo.web.scripts.RepositoryContainer$2.execute(RepositoryContainer.java:393)
+	at org.alfresco.repo.transaction.RetryingTransactionHelper.doInTransaction(RetryingTransactionHelper.java:388)
+	at org.alfresco.repo.web.scripts.RepositoryContainer.transactionedExecute(RepositoryContainer.java:462)
+	at org.alfresco.repo.web.scripts.RepositoryContainer.transactionedExecuteAs(RepositoryContainer.java:500)
+	at org.alfresco.repo.web.scripts.RepositoryContainer.executeScript(RepositoryContainer.java:275)
+	at org.springframework.extensions.webscripts.AbstractRuntime.executeScript(AbstractRuntime.java:372)
+	at org.springframework.extensions.webscripts.AbstractRuntime.executeScript(AbstractRuntime.java:209)
+	at org.springframework.extensions.webscripts.servlet.WebScriptServlet.service(WebScriptServlet.java:118)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1166)
+	at org.alfresco.web.app.servlet.GlobalLocalizationFilter.doFilter(GlobalLocalizationFilter.java:58)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1157)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:388)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:230)
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:536)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:930)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:834)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:405)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:409)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)

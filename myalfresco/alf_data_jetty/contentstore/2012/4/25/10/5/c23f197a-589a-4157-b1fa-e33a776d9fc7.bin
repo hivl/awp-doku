@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component>
+  <guid>page.component-1-2.site~fsdfs~dashboard</guid>
+  <scope>page</scope>
+  <region-id>component-1-2</region-id>
+  <source-id>site/fsdfs/dashboard</source-id>
+  <url>/components/dashlets/site-tags</url>
+</component>
